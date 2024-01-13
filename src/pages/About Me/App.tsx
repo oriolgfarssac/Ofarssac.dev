@@ -1,15 +1,15 @@
 import './App.css'
-import logo from "./assets/img.png"
-import yo from "./assets/oriol.jpg"
-import github from "./assets/githubIcon.svg"
-import linkedin from "./assets/linkedin.png"
+import yo from "../../assets/oriol.jpg"
+import github from "../../assets/githubIcon.svg"
+import linkedin from "../../assets/linkedin.png"
 function App() {
 
+  const title = "<Ofarssac.dev/>"
 
   return (
     <>
         <div className="mainContainer">
-          <img src={logo} alt="pic" className='img'/>
+          <h1 className='title1'>{title}</h1>
           <div className='nav'>
             <a href="#aboutMe" className="sections">About Me</a>
             <a href="" className="sections">Skills</a>
