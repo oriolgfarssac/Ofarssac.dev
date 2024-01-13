@@ -96,6 +96,17 @@ html, body{
     width: 40%;
     height: auto;
     border: solid 3px white;
+    border-radius: 5px;
+}
+
+#id{
+    width: 30px;
+    padding: 0px;
+}
+
+#iconImg{
+    width: 60px;
+    margin-right: 20px;
 }
 
 @media (max-width: 1000px) {
@@ -122,11 +133,18 @@ html, body{
     }
 
     #picture{
-        margin-top: 0px;
+        margin-top: 15px;
+        margin-bottom: 15px;
         width: 50%;
     }
     .img{
         width: 150px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    #iconImg{
+        width: 45px;
+        margin-right: 15px;
     }
 }
 
