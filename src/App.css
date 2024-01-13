@@ -30,6 +30,7 @@ html, body{
     background-position-x: center;
     background-repeat: no-repeat;
     background-position-y: 75px;
+    overflow-y: scroll;
 
 }
 
@@ -93,10 +94,11 @@ html, body{
 #picture{
     margin-top: 16.75px;
     width: 40%;
+    height: auto;
     border: solid 3px white;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 1000px) {
     .nav {
         height: 50px;
         width: 90%;
