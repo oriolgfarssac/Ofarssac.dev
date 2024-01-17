@@ -77,8 +77,32 @@ html, body{
     color: white;
 }
 
+#mySKills{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:left;
+    font-weight: 100;
+    height: auto;
+    width: 55%;
+    color: white;
+}
+
 .intro{
-    font-size: 25px;
+    padding-right: 20px;
+    font-size: 1em;
+    text-align:left;
+    font-weight: 100;
+    align-items: center;
+    width: 60%;
+    color: white;
+}
+
+.intro2{
+    padding-right: 20px;
+    font-size: 1em;
     text-align:left;
     font-weight: 100;
     align-items: center;
@@ -93,7 +117,6 @@ html, body{
 #picture{
     margin-top: 16.75px;
     width: 40%;
-    height: auto;
     border: solid 3px white;
     border-radius: 5px;
 }
@@ -115,6 +138,26 @@ html, body{
     font-weight: 100;
 }
 
+.mySkills{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:left;
+    font-weight: 100;
+    height: auto;
+    width: 55%;
+    color: white;
+}
+
+.skills{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+}
+
 @media (max-width: 1200px) {
     .nav {
         height: 50px;
@@ -130,7 +173,19 @@ html, body{
         align-items: center;
         width: 90%;
     }
+    #mySKills{
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+    }
     .intro{
+        padding-right: 0px;
+        width: 100%;
+        font-size: 18px;
+    }
+    .intro2{
+        padding-right: 0px;
         width: 100%;
         font-size: 18px;
     }
@@ -147,6 +202,11 @@ html, body{
         width: 150px;
         margin-top: 15px;
         margin-bottom: 15px;
+    }
+    .skills{
+        padding-right: 0px;
+        width: 100%;
+        font-size: 18px;
     }
     #iconImg{
         width: 45px;
